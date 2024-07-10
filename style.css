@@ -1,0 +1,74 @@
+.MySocial {
+    border: solid red;
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+  .Sites {
+    border-radius: 22px;
+    font-size:22px;
+    border: solid grey;
+    margin: 20px;
+    /* width: 100%; */
+    padding: 12px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    display: flex
+    ;
+  }
+  
+  #Site_a:hover {
+    color: white;
+    background-color: lightblue;
+  }
+  #Site_b:hover {
+    
+    background-color: rgb(66, 66, 71);
+  }
+  #Site_c:hover {
+    background-color: rgb(201, 97, 32);
+  }
+  
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid white;
+  }
+  .introduction{
+    border: solid ;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+  .IntElement{
+    border-radius: 22px;
+    font-size:22px;
+    margin: 20px;
+    /* width: 100%; */
+    padding: 12px;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+   
+  }
+  #ProfessionalSummary{
+  
+    border: solid;
+
+  }
+  #TechnicalSkills{
+    border: solid;
+  }
+  .Descriptions{
+    background-color: gray;
+    
+    padding: 2em;
+    justify-content: space-evenly;
+    text-wrap-mode:auto;
+  }
